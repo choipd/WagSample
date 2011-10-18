@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F53CC05144D8F2700C29062 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F53CC04144D8F2700C29062 /* UIKit.framework */; };
+		1F53CC07144D8F2700C29062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F53CC06144D8F2700C29062 /* Foundation.framework */; };
+		1F53CC09144D8F2700C29062 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F53CC08144D8F2700C29062 /* CoreGraphics.framework */; };
+		1F53CC0F144D8F2700C29062 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F53CC0D144D8F2700C29062 /* InfoPlist.strings */; };
+		1F53CC11144D8F2700C29062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F53CC10144D8F2700C29062 /* main.m */; };
+		1F53CC15144D8F2700C29062 /* WAGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F53CC14144D8F2700C29062 /* WAGAppDelegate.m */; };
+		1F53CC1D144D8F2700C29062 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F53CC1C144D8F2700C29062 /* SenTestingKit.framework */; };
+		1F53CC1E144D8F2700C29062 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F53CC04144D8F2700C29062 /* UIKit.framework */; };
+		1F53CC1F144D8F2700C29062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F53CC06144D8F2700C29062 /* Foundation.framework */; };
+		1F53CC27144D8F2700C29062 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F53CC25144D8F2700C29062 /* InfoPlist.strings */; };
+		1F53CC2A144D8F2700C29062 /* WagSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F53CC29144D8F2700C29062 /* WagSampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F53CC20144D8F2700C29062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F53CBF7144D8F2700C29062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F53CBFF144D8F2700C29062;
+			remoteInfo = WagSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F53CC00144D8F2700C29062 /* WagSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WagSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F53CC04144D8F2700C29062 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F53CC06144D8F2700C29062 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F53CC08144D8F2700C29062 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F53CC0C144D8F2700C29062 /* WagSample-Info.plist */ = {isa = PBXFileReference; path = "WagSample-Info.plist"; sourceTree = "<group>"; };
+		1F53CC0E144D8F2700C29062 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F53CC10144D8F2700C29062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F53CC12144D8F2700C29062 /* WagSample-Prefix.pch */ = {isa = PBXFileReference; path = "WagSample-Prefix.pch"; sourceTree = "<group>"; };
+		1F53CC13144D8F2700C29062 /* WAGAppDelegate.h */ = {isa = PBXFileReference; path = WAGAppDelegate.h; sourceTree = "<group>"; };
+		1F53CC14144D8F2700C29062 /* WAGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGAppDelegate.m; sourceTree = "<group>"; };
+		1F53CC1B144D8F2700C29062 /* WagSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WagSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F53CC1C144D8F2700C29062 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1F53CC24144D8F2700C29062 /* WagSampleTests-Info.plist */ = {isa = PBXFileReference; path = "WagSampleTests-Info.plist"; sourceTree = "<group>"; };
+		1F53CC26144D8F2700C29062 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F53CC28144D8F2700C29062 /* WagSampleTests.h */ = {isa = PBXFileReference; path = WagSampleTests.h; sourceTree = "<group>"; };
+		1F53CC29144D8F2700C29062 /* WagSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WagSampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F53CBFD144D8F2700C29062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F53CC05144D8F2700C29062 /* UIKit.framework in Frameworks */,
+				1F53CC07144D8F2700C29062 /* Foundation.framework in Frameworks */,
+				1F53CC09144D8F2700C29062 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F53CC17144D8F2700C29062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F53CC1D144D8F2700C29062 /* SenTestingKit.framework in Frameworks */,
+				1F53CC1E144D8F2700C29062 /* UIKit.framework in Frameworks */,
+				1F53CC1F144D8F2700C29062 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F53CBF5144D8F2700C29062 = {
+			isa = PBXGroup;
+			children = (
+				1F53CC0A144D8F2700C29062 /* WagSample */,
+				1F53CC22144D8F2700C29062 /* WagSampleTests */,
+				1F53CC03144D8F2700C29062 /* Frameworks */,
+				1F53CC01144D8F2700C29062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F53CC01144D8F2700C29062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F53CC00144D8F2700C29062 /* WagSample.app */,
+				1F53CC1B144D8F2700C29062 /* WagSampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F53CC03144D8F2700C29062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F53CC04144D8F2700C29062 /* UIKit.framework */,
+				1F53CC06144D8F2700C29062 /* Foundation.framework */,
+				1F53CC08144D8F2700C29062 /* CoreGraphics.framework */,
+				1F53CC1C144D8F2700C29062 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F53CC0A144D8F2700C29062 /* WagSample */ = {
+			isa = PBXGroup;
+			children = (
+				1F53CC13144D8F2700C29062 /* WAGAppDelegate.h */,
+				1F53CC14144D8F2700C29062 /* WAGAppDelegate.m */,
+				1F53CC0B144D8F2700C29062 /* Supporting Files */,
+			);
+			path = WagSample;
+			sourceTree = "<group>";
+		};
+		1F53CC0B144D8F2700C29062 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F53CC0C144D8F2700C29062 /* WagSample-Info.plist */,
+				1F53CC0D144D8F2700C29062 /* InfoPlist.strings */,
+				1F53CC10144D8F2700C29062 /* main.m */,
+				1F53CC12144D8F2700C29062 /* WagSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F53CC22144D8F2700C29062 /* WagSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F53CC28144D8F2700C29062 /* WagSampleTests.h */,
+				1F53CC29144D8F2700C29062 /* WagSampleTests.m */,
+				1F53CC23144D8F2700C29062 /* Supporting Files */,
+			);
+			path = WagSampleTests;
+			sourceTree = "<group>";
+		};
+		1F53CC23144D8F2700C29062 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F53CC24144D8F2700C29062 /* WagSampleTests-Info.plist */,
+				1F53CC25144D8F2700C29062 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F53CBFF144D8F2700C29062 /* WagSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F53CC2D144D8F2700C29062 /* Build configuration list for PBXNativeTarget "WagSample" */;
+			buildPhases = (
+				1F53CBFC144D8F2700C29062 /* Sources */,
+				1F53CBFD144D8F2700C29062 /* Frameworks */,
+				1F53CBFE144D8F2700C29062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WagSample;
+			productName = WagSample;
+			productReference = 1F53CC00144D8F2700C29062 /* WagSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F53CC1A144D8F2700C29062 /* WagSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F53CC30144D8F2700C29062 /* Build configuration list for PBXNativeTarget "WagSampleTests" */;
+			buildPhases = (
+				1F53CC16144D8F2700C29062 /* Sources */,
+				1F53CC17144D8F2700C29062 /* Frameworks */,
+				1F53CC18144D8F2700C29062 /* Resources */,
+				1F53CC19144D8F2700C29062 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F53CC21144D8F2700C29062 /* PBXTargetDependency */,
+			);
+			name = WagSampleTests;
+			productName = WagSampleTests;
+			productReference = 1F53CC1B144D8F2700C29062 /* WagSampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F53CBF7144D8F2700C29062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = KTH;
+			};
+			buildConfigurationList = 1F53CBFA144D8F2700C29062 /* Build configuration list for PBXProject "WagSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F53CBF5144D8F2700C29062;
+			productRefGroup = 1F53CC01144D8F2700C29062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F53CBFF144D8F2700C29062 /* WagSample */,
+				1F53CC1A144D8F2700C29062 /* WagSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F53CBFE144D8F2700C29062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F53CC0F144D8F2700C29062 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F53CC18144D8F2700C29062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F53CC27144D8F2700C29062 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F53CC19144D8F2700C29062 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F53CBFC144D8F2700C29062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F53CC11144D8F2700C29062 /* main.m in Sources */,
+				1F53CC15144D8F2700C29062 /* WAGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F53CC16144D8F2700C29062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F53CC2A144D8F2700C29062 /* WagSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F53CC21144D8F2700C29062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F53CBFF144D8F2700C29062 /* WagSample */;
+			targetProxy = 1F53CC20144D8F2700C29062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F53CC0D144D8F2700C29062 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F53CC0E144D8F2700C29062 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F53CC25144D8F2700C29062 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F53CC26144D8F2700C29062 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F53CC2B144D8F2700C29062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F53CC2C144D8F2700C29062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F53CC2E144D8F2700C29062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WagSample/WagSample-Prefix.pch";
+				INFOPLIST_FILE = "WagSample/WagSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F53CC2F144D8F2700C29062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WagSample/WagSample-Prefix.pch";
+				INFOPLIST_FILE = "WagSample/WagSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1F53CC31144D8F2700C29062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WagSample.app/WagSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WagSample/WagSample-Prefix.pch";
+				INFOPLIST_FILE = "WagSampleTests/WagSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1F53CC32144D8F2700C29062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WagSample.app/WagSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WagSample/WagSample-Prefix.pch";
+				INFOPLIST_FILE = "WagSampleTests/WagSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F53CBFA144D8F2700C29062 /* Build configuration list for PBXProject "WagSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F53CC2B144D8F2700C29062 /* Debug */,
+				1F53CC2C144D8F2700C29062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F53CC2D144D8F2700C29062 /* Build configuration list for PBXNativeTarget "WagSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F53CC2E144D8F2700C29062 /* Debug */,
+				1F53CC2F144D8F2700C29062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F53CC30144D8F2700C29062 /* Build configuration list for PBXNativeTarget "WagSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F53CC31144D8F2700C29062 /* Debug */,
+				1F53CC32144D8F2700C29062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F53CBF7144D8F2700C29062 /* Project object */;
+}
