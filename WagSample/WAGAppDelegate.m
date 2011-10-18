@@ -7,6 +7,7 @@
 //
 
 #import "WAGAppDelegate.h"
+#import "BizWebViewController.h"
 
 @implementation WAGAppDelegate
 
@@ -18,6 +19,13 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    BizWebViewController* vc = [[BizWebViewController alloc] initWithNibName:@"BizWebViewController" bundle:nil];
+    UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [nav setNavigationBarHidden:YES];
+    
+    [self.window setRootViewController:nav];
+    
     return YES;
 }
 

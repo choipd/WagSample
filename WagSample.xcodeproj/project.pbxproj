@@ -18,6 +18,10 @@
 		1F53CC1F144D8F2700C29062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F53CC06144D8F2700C29062 /* Foundation.framework */; };
 		1F53CC27144D8F2700C29062 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F53CC25144D8F2700C29062 /* InfoPlist.strings */; };
 		1F53CC2A144D8F2700C29062 /* WagSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F53CC29144D8F2700C29062 /* WagSampleTests.m */; };
+		1F53CC3A144D9C5800C29062 /* WebAppGatewayProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F53CC39144D9C5800C29062 /* WebAppGatewayProtocol.m */; };
+		1F53CC3D144D9E0800C29062 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F53CC3C144D9E0800C29062 /* NSString+URLEncoding.m */; };
+		1F53CC47144DA6E700C29062 /* BizWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F53CC45144DA6E700C29062 /* BizWebViewController.m */; };
+		1F53CC48144DA6E700C29062 /* BizWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F53CC46144DA6E700C29062 /* BizWebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +39,25 @@
 		1F53CC04144D8F2700C29062 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1F53CC06144D8F2700C29062 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1F53CC08144D8F2700C29062 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1F53CC0C144D8F2700C29062 /* WagSample-Info.plist */ = {isa = PBXFileReference; path = "WagSample-Info.plist"; sourceTree = "<group>"; };
+		1F53CC0C144D8F2700C29062 /* WagSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WagSample-Info.plist"; sourceTree = "<group>"; };
 		1F53CC0E144D8F2700C29062 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F53CC10144D8F2700C29062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F53CC12144D8F2700C29062 /* WagSample-Prefix.pch */ = {isa = PBXFileReference; path = "WagSample-Prefix.pch"; sourceTree = "<group>"; };
-		1F53CC13144D8F2700C29062 /* WAGAppDelegate.h */ = {isa = PBXFileReference; path = WAGAppDelegate.h; sourceTree = "<group>"; };
+		1F53CC12144D8F2700C29062 /* WagSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WagSample-Prefix.pch"; sourceTree = "<group>"; };
+		1F53CC13144D8F2700C29062 /* WAGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAGAppDelegate.h; sourceTree = "<group>"; };
 		1F53CC14144D8F2700C29062 /* WAGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAGAppDelegate.m; sourceTree = "<group>"; };
 		1F53CC1B144D8F2700C29062 /* WagSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WagSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F53CC1C144D8F2700C29062 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1F53CC24144D8F2700C29062 /* WagSampleTests-Info.plist */ = {isa = PBXFileReference; path = "WagSampleTests-Info.plist"; sourceTree = "<group>"; };
+		1F53CC24144D8F2700C29062 /* WagSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WagSampleTests-Info.plist"; sourceTree = "<group>"; };
 		1F53CC26144D8F2700C29062 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1F53CC28144D8F2700C29062 /* WagSampleTests.h */ = {isa = PBXFileReference; path = WagSampleTests.h; sourceTree = "<group>"; };
+		1F53CC28144D8F2700C29062 /* WagSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WagSampleTests.h; sourceTree = "<group>"; };
 		1F53CC29144D8F2700C29062 /* WagSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WagSampleTests.m; sourceTree = "<group>"; };
+		1F53CC38144D9C5800C29062 /* WebAppGatewayProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebAppGatewayProtocol.h; sourceTree = "<group>"; };
+		1F53CC39144D9C5800C29062 /* WebAppGatewayProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebAppGatewayProtocol.m; sourceTree = "<group>"; };
+		1F53CC3B144D9E0800C29062 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		1F53CC3C144D9E0800C29062 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		1F53CC44144DA6E700C29062 /* BizWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BizWebViewController.h; sourceTree = "<group>"; };
+		1F53CC45144DA6E700C29062 /* BizWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BizWebViewController.m; sourceTree = "<group>"; };
+		1F53CC46144DA6E700C29062 /* BizWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BizWebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +87,10 @@
 		1F53CBF5144D8F2700C29062 = {
 			isa = PBXGroup;
 			children = (
+				1F53CC3B144D9E0800C29062 /* NSString+URLEncoding.h */,
+				1F53CC3C144D9E0800C29062 /* NSString+URLEncoding.m */,
+				1F53CC38144D9C5800C29062 /* WebAppGatewayProtocol.h */,
+				1F53CC39144D9C5800C29062 /* WebAppGatewayProtocol.m */,
 				1F53CC0A144D8F2700C29062 /* WagSample */,
 				1F53CC22144D8F2700C29062 /* WagSampleTests */,
 				1F53CC03144D8F2700C29062 /* Frameworks */,
@@ -106,6 +121,9 @@
 		1F53CC0A144D8F2700C29062 /* WagSample */ = {
 			isa = PBXGroup;
 			children = (
+				1F53CC44144DA6E700C29062 /* BizWebViewController.h */,
+				1F53CC45144DA6E700C29062 /* BizWebViewController.m */,
+				1F53CC46144DA6E700C29062 /* BizWebViewController.xib */,
 				1F53CC13144D8F2700C29062 /* WAGAppDelegate.h */,
 				1F53CC14144D8F2700C29062 /* WAGAppDelegate.m */,
 				1F53CC0B144D8F2700C29062 /* Supporting Files */,
@@ -215,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F53CC0F144D8F2700C29062 /* InfoPlist.strings in Resources */,
+				1F53CC48144DA6E700C29062 /* BizWebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +270,9 @@
 			files = (
 				1F53CC11144D8F2700C29062 /* main.m in Sources */,
 				1F53CC15144D8F2700C29062 /* WAGAppDelegate.m in Sources */,
+				1F53CC3A144D9C5800C29062 /* WebAppGatewayProtocol.m in Sources */,
+				1F53CC3D144D9E0800C29062 /* NSString+URLEncoding.m in Sources */,
+				1F53CC47144DA6E700C29062 /* BizWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
